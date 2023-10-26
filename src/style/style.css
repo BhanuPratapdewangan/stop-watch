@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Montserrat&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    justify-content: center;
+    /* background-color:black; */
+    background-image: url('/public/images/background_image_live.svg');
+    color: white ;
+    gap: 5%;
+    font-family: 'Asap', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+/* span display  */
+.span-display {
+    font-size: 3rem;
+}
+
+/* button  */
+.button-display button {
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: 3%;
+    background-color: cyan;
+    font-weight: bold;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 2px 2px 30px white;
+}
